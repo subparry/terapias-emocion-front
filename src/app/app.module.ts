@@ -13,6 +13,7 @@ import { NmgComponent } from './components/nmg/nmg.component';
 import { BiomagnetismoComponent } from './components/biomagnetismo/biomagnetismo.component';
 import { FloresComponent } from './components/flores/flores.component';
 import { MiTerapiaComponent } from './components/mi-terapia/mi-terapia.component';
+import { CarouselComponent } from './components/home/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MiTerapiaComponent } from './components/mi-terapia/mi-terapia.component
     NmgComponent,
     BiomagnetismoComponent,
     FloresComponent,
-    MiTerapiaComponent
+    MiTerapiaComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
