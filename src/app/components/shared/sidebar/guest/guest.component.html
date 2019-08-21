@@ -2,44 +2,46 @@
 
     <!-- Sidebar - Brand -->
     <li class="text-center mt-3">
-      <h3 class="mt-2 text-white">Cecilia Ainardi</h3>
-      <p class="text-white">Terapias de la emoción</p>
+      <div (click)="navigation.goHome()" class="mouse-pointer">
+        <h3 class="mt-2 text-white">Cecilia Ainardi</h3>
+        <p class="text-white">Terapias de la emoción</p>
+      </div>
       <img src="assets/images/cecilia.png" alt="Cecilia Ainardi" class="img-fluid rounded">
     </li>
 
     <!-- Nav Items -->
     <li class="nav-item">
-      <a class="nav-link py-2 mt-2">
+      <a class="nav-link py-2 mt-2 mouse-pointer" [routerLink]="['/mi_terapia']">
           <i class="fas fa-hand-holding-heart"></i>
           <span> Mi terapia</span>
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link py-2">
+      <a class="nav-link py-2 mouse-pointer" [routerLink]="['/nmg']">
           <i class="fas fa-clinic-medical"></i>
           <span> Nueva Medicina Germánica</span>
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link py-2">
+      <a class="nav-link py-2 mouse-pointer" [routerLink]="['/flores']">
           <i class="fas fa-eye-dropper"></i>
           <span> Flores de Bach</span>
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link py-2">
+      <a class="nav-link py-2 mouse-pointer" [routerLink]="['/biomagnetismo']">
           <i class="fas fa-magnet"></i>
           <span> Biomagnetismo</span>
       </a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link py-2">
+    <!-- <li class="nav-item">
+      <a class="nav-link py-2 mouse-pointer">
           <i class="fas fa-bullhorn"></i>
           <span> Blog</span>
       </a>
-    </li>
+    </li> -->
     <li class="nav-item">
-      <a class="nav-link py-2">
+      <a class="nav-link py-2 mouse-pointer" [routerLink]="['/sobre_mi']">
           <i class="fas fa-user-circle"></i>
           <span> Sobre mí</span>
       </a>

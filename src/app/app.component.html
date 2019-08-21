@@ -2,7 +2,7 @@
   <app-sidebar></app-sidebar>
   <div id="content-wrapper" class="d-flex flex-column">
     <app-navbar *ngIf="auth.currentRole != 'Guest'"></app-navbar>
-    <div class="container-fluid mt-2">
+    <div *ngIf="auth.currentRole == 'Guest'" class="container-fluid mt-2 overflow-y height-100">
       <router-outlet></router-outlet>
     </div>
   </div>

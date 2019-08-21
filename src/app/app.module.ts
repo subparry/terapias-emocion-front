@@ -8,6 +8,11 @@ import { SidebarComponent } from './components/shared/sidebar/sidebar.component'
 import { GuestComponent } from './components/shared/sidebar/guest/guest.component';
 import { AdminComponent } from './components/shared/sidebar/admin/admin.component';
 import { HomeComponent } from './components/home/home.component';
+import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
+import { NmgComponent } from './components/nmg/nmg.component';
+import { BiomagnetismoComponent } from './components/biomagnetismo/biomagnetismo.component';
+import { FloresComponent } from './components/flores/flores.component';
+import { MiTerapiaComponent } from './components/mi-terapia/mi-terapia.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { HomeComponent } from './components/home/home.component';
     SidebarComponent,
     GuestComponent,
     AdminComponent,
-    HomeComponent
+    HomeComponent,
+    SobreMiComponent,
+    NmgComponent,
+    BiomagnetismoComponent,
+    FloresComponent,
+    MiTerapiaComponent
   ],
   imports: [
     BrowserModule,
