@@ -4,7 +4,7 @@
   </ol>
   <div class="carousel-inner">
     <div *ngFor="let photo of photos" class="carousel-item {{photo.class}}">
-      <img [src]="imagesPath + photo.file" class="d-block w-100" [alt]="photo.title">
+      <img [src]="photo.file" class="d-block w-100" [alt]="photo.title">
       <div class="carousel-caption d-none d-md-block">
         <h5>{{photo.title}}</h5>
         <p>{{photo.desc}}</p>

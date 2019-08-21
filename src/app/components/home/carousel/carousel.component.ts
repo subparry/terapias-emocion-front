@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class CarouselComponent implements OnInit {
-  imagesPath:string = "/src/assets/images/carousel/";
+  imagesPath:string = "../../../../../assets/images/carousel/";
   photos:any[] = [
     {file: `${this.imagesPath}1.jpg`, index: 0, title: '', desc: '', class: 'active'},
     {file: `${this.imagesPath}2.jpg`, index: 1, title: '', desc: '', class: ''},
