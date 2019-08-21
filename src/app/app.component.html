@@ -1,2 +1,9 @@
-
-<router-outlet></router-outlet>
+<div id="wrapper">
+  <app-sidebar></app-sidebar>
+  <div id="content-wrapper" class="d-flex flex-column">
+    <app-navbar *ngIf="auth.currentRole != 'Guest'"></app-navbar>
+    <div class="container-fluid mt-2">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
