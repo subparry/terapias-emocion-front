@@ -14,6 +14,7 @@ import { BiomagnetismoComponent } from './components/biomagnetismo/biomagnetismo
 import { FloresComponent } from './components/flores/flores.component';
 import { MiTerapiaComponent } from './components/mi-terapia/mi-terapia.component';
 import { CarouselComponent } from './components/home/carousel/carousel.component';
+import { PromotionModalComponent } from './components/promotion-modal/promotion-modal.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CarouselComponent } from './components/home/carousel/carousel.component
     BiomagnetismoComponent,
     FloresComponent,
     MiTerapiaComponent,
-    CarouselComponent
+    CarouselComponent,
+    PromotionModalComponent
   ],
   imports: [
     BrowserModule,

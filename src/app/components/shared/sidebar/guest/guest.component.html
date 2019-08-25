@@ -11,6 +11,12 @@
 
     <!-- Nav Items -->
     <li class="nav-item">
+      <a class="nav-link py-2 mt-2 mouse-pointer" [routerLink]="['/']">
+          <i class="fas fa-home"></i>
+          <span> Inicio</span>
+      </a>
+    </li>
+    <li class="nav-item">
       <a class="nav-link py-2 mt-2 mouse-pointer" [routerLink]="['/mi_terapia']">
           <i class="fas fa-hand-holding-heart"></i>
           <span> Mi terapia</span>
@@ -44,6 +50,12 @@
       <a class="nav-link py-2 mouse-pointer" [routerLink]="['/sobre_mi']">
           <i class="fas fa-user-circle"></i>
           <span> Sobre mí</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link py-2 mouse-pointer" data-toggle="modal" data-target="#promotionModal">
+          <i class="fas fa-check"></i>
+          <span> Próximas actividades</span>
       </a>
     </li>
 
