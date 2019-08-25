@@ -12,6 +12,10 @@
   height: 95vh;
 }
 
+.full-height {
+  height: 10vh;
+}
+
 .logo-back {
   background-image: url('assets/images/logotipo.png');
   background-position: center;
