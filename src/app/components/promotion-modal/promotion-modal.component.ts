@@ -1,26 +1,24 @@
-import { Component, OnInit } from '@angular/core';
-import { $ } from 'protractor';
+import { Component, OnInit } from "@angular/core";
+import { $ } from "protractor";
 
 @Component({
-  selector: 'app-promotion-modal',
-  templateUrl: './promotion-modal.component.html',
+  selector: "app-promotion-modal",
+  templateUrl: "./promotion-modal.component.html",
   styles: []
 })
 export class PromotionModalComponent implements OnInit {
+  displayModal: boolean = true;
 
-  displayModal:boolean = true;
-
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
-    this.showModal();
+    // this.showModal();
   }
 
-  showModal(){
-    let script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.text = `$('#promotionModal').modal('show')`
-    document.getElementsByTagName('head')[0].appendChild(script);
+  showModal() {
+    let script = document.createElement("script");
+    script.type = "text/javascript";
+    script.text = `$('#promotionModal').modal('show')`;
+    document.getElementsByTagName("head")[0].appendChild(script);
   }
-
 }
